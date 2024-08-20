@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=vivaldi">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <title>Peliculas</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <nav class="navbar navbar-expand-lg bg-body-tertiary  bg-dark " data-bs-theme="dark">
+    <div class="container-fluid ">
+      <a class="navbar-brand" href="#">CINEBOG</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse menu" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0 subMenuPeliculas">
+          <li class="nav-item ">
+            <a class="nav-link active " aria-current="page" href="#">Lista de peliculas</a>
+          </li>
+        </ul>
+
+        <div class="container">
+
+          <input class="form-control" type="text" id="searchInput" placeholder="Filtrar por nombre...">
+        </div>
+
+      </div>
+    </div>
+  </nav>
+
+  <div class="card-group" >
+    <div class="card-group container " >
+
+  <div class="card-portada">
+    
+  </div>
+  
+
+  <h1 class="text-center">Mi lista de peliculas</h1>
+  <div id="cardContainer"></div>
+
+  <div class="container">
+
+    <div class="row row-cols-1 row-cols-md-2 g-4">
+      <div class="col">
+        <div class="card" data-name="Alerta Roja">
+          <h1 class="card-title">Computador Portátil LENOVO 15,6</h1>
+          <br>
+          <img src="https://www.ktronix.com/medias/197532261341-001-750Wx750H?context=bWFzdGVyfGltYWdlc3wyMzUwMnxpbWFnZS93ZWJwfGFEYzFMMmhtTXk4eE5ETTRNRFF5TVRReE5EazBNaTh4T1RjMU16SXlOakV6TkRGZk1EQXhYemMxTUZkNE56VXdTQXw3NTliYjdlYzQ3NTc2NWMwMWRmZTFiYzI5MTcyYjg1YWFjNGNhMWU3ODU3MzI4OGViZmNjZWQ2YjA0NjVlNDk3" width="5%" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Descripción</h5>
+            <p class="card-text">En el portátil LENOVO IdeaPad Slim 3 color Gris, 
+              encuentra todo el rendimiento que necesitas, un portátil elegante que cubre tus necesidades, 
+              su procesador serie H, Ram y almacenamiento en estado solido, es perfecto para tareas exigentes, 
+              con un diseño extraordinario y duradero, este equipo superará tus expectativas. Así mismo, te brindará 
+              interacción sorprendente gracias a su pantalla táctil y su conectividad premium..</p>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card" data-name="A todos los chicos que enamore">
+            <h5 class="card-title">Computador Portátil HP Pavilion 15,6</h5>
+            <br>
+            <img src="https://www.ktronix.com/medias/197498723976-001-750Wx750H?context=bWFzdGVyfGltYWdlc3w0MjYyOHxpbWFnZS93ZWJwfGFEazVMMmc1T0M4eE5ETTFPVGM1TXpJM01EZ3hOQzh4T1RjME9UZzNNak01TnpaZk1EQXhYemMxTUZkNE56VXdTQXw4MzA2YjMxYTY1NDcyN2RmODFmZWMzYjRkM2U3MjA5ZGRhOGU4YjMzYTI3YmU5ODY2ZWRjMjQ2YTUwYzMyYzEw" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Descripción</h5>
+              <p class="card-text">Permanece conectado y productivo con el espectacular Portátil HP Pavilion! Increíble desempeño para que puedas hacer más y disfrutar del entretenimiento donde quiera que vayas. Entretenimiento excepcional que te proporciona su pantalla con microbordes y audio de B&O. Modo de espera moderno conectado para que estés actualizado con tu correo electrónico, notificaciones de calendario y mucho más, incluso si no usas el equipo.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card" data-name="endgame">
+            <h5 class="card-title">Computador Portátil ASUS Vivobook Go 15.6</h5>
+            <br>
+            <img src="https://www.ktronix.com/medias/4711387322925-001-750Wx750H?context=bWFzdGVyfGltYWdlc3wxNjQ4NHxpbWFnZS93ZWJwfGFEZzNMMmd5WkM4eE5EUTVNakUwTlRZNE1EUXhOQzgwTnpFeE16ZzNNekl5T1RJMVh6QXdNVjgzTlRCWGVEYzFNRWd8YzBmZWEyOWE3ZjA0MTE2OWY5MzA1ODhjYTBmNzBmZTM1NTUzMjRkMWU2M2Q4MGRhNDZjYjNjMzYzMDg0MGRkMg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Descripción</h5>
+              <p class="card-text">La ASUS Vivobook Go 15 es liviana, es compacta, diseñada para que seas productivo y te mantengas entretenido donde quiera que vayas. Con su bisagra plana de 180°, el protector físico de la cámara web y un montón de características de diseño bien pensadas, incluida una hermosa pantalla con bordes ultradelgados</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card" data-name="Era de Ultron">
+            <br>
+            <h5 class="card-title">Computador Portátil Gamer Victus HP 15,6</h5>
+            <img src="https://www.ktronix.com/medias/197497202632-001-750Wx750H?context=bWFzdGVyfGltYWdlc3wzODU4OHxpbWFnZS93ZWJwfGFEWmpMMmd6Tnk4eE5ETTFOVGN4TnprNE1ERTVNQzh4T1RjME9UY3lNREkyTXpKZk1EQXhYemMxTUZkNE56VXdTQXxkYTAyMmM3Zjg5YzVlODllZjE1YzM1ZmZmMzcyMzllYjU2NDU1MzM4ZGY4NWZjM2E0YWIyNjk3ZTk1NDI3Nzk5" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Descripción</h5>
+              <p class="card-text">El portátil gamer Victus by HP tiene todo lo que necesita para jugar y gestionar tus tareas diarias respetando el medio ambiente gracias a los materiales reciclados de origen oceánico y plástico posconsumo, que lo integran. Manten la temperatura ideal en cada juego con el sistema de refrigeración mejorado y lleva tu experiencia de juego más allá controlando ajustes de rendimiento, opciones de iluminación y más gracias a OMEN Gaming Hub..</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card" data-name="Infinity">
+            <h5 class="card-title">Computador Portátil ASUS Vivobook 16</h5>
+            <br>
+            <img src="https://www.ktronix.com/medias/4711387569528-001-750Wx750H?context=bWFzdGVyfGltYWdlc3wxODY0NHxpbWFnZS93ZWJwfGFEa3pMMmd4WXk4eE5EUTNOak16T0RjNU1EUXpNQzgwTnpFeE16ZzNOVFk1TlRJNFh6QXdNVjgzTlRCWGVEYzFNRWd8MTY2NWY0YWVmNjkyYjJiNzBjOGJiZDIwZjg5YThmNjNlNGE2NjJhZWQ4NzI5NjNjZDk0ODFhNmJiY2IyZGM3Mg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Descripción</h5>
+              <p class="card-text">Con ASUS Vivobook 16 todo es más fluido, un portátil con funciones útiles y fáciles de usar que incluyen una bisagra plana de 180°, un protector de cámara WEB físico y teclas de función dedicadas para encender o apagar el micrófono. Utiliza 2 salidas de aire, tubos de calor y un ventilador IceBlade mejorados. El diseño especial del ventilador acelera de manera eficiente la transferencia de calor para estabilizar el rendimiento y evitar el sobrecalentamiento.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card" data-name="Mulan">
+            <h5 class="card-title">Computador Portátil LENOVO IdeaPad Slim 5 14</h5>
+            <br>
+            <img src="https://www.ktronix.com/medias/198153015641-001-750Wx750H?context=bWFzdGVyfGltYWdlc3wyMTEyNnxpbWFnZS93ZWJwfGFEQTVMMmhsTmk4eE5EVXpNVGswTnpjNU1ETTJOaTh4T1RneE5UTXdNVFUyTkRGZk1EQXhYemMxTUZkNE56VXdTQXwwNWY1YzQ4OTIxMDA3MzgzZGRmMzY2NDQ4OTc0MWNkMzc1ZDRkZWRhNDczZTNlNGYwMTVhNzAyOGRmZjZjMTA3" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Descripción</h5>
+              <p class="card-text">En el portátil LENOVO IdeaPad Slim 5 color Gris, encuentra todo el rendimiento que necesitas, un portátil elegante que cubre tus necesidades, su procesador serie H, Ram y almacenamiento en estado sólido, es perfecto para tareas exigentes, con un diseño extraordinario y duradero, este equipo superará tus expectativas. Así mismo, te brindará interacción sorprendente gracias a su conectividad premium. Te sentirás seguro gracias a su obturador de privacidad en su cámara, cuando termines tus reuniones o videollamadas solo tienes que cerrarlo.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card" data-name="Raya">
+            <h5 class="card-title">MacBook Air de 13</h5>
+            <br>
+            <img src="https://www.ktronix.com/medias/194252425824-001-750Wx750H?context=bWFzdGVyfGltYWdlc3w2NTA2fGltYWdlL3dlYnB8YURNNEwyZzVNaTh4TkRJNU9USTVNVEk0TnpVNE1pOHhPVFF5TlRJME1qVTRNalJmTURBeFh6YzFNRmQ0TnpVd1NBfGRjZTIyY2EwZDI1YmQ1NGM0NmUyN2JlMzc5OTExNWNkMTY2YzJiZTE3MWU1NDQzMDdlNDQ3YjA2NTcwYWQ1YTg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Descripción</h5>
+              <p class="card-text">Un nuevo poder toma vuelo.El MacBook Air es el notebook más delgado y liviano de Apple, y vuelve completamente renovado por dentro. Gracias al chip M1 de Apple, la CPU es hasta 3,5 veces más rápida y la GPU hasta 5 veces más vleoz. El avanzado Neural Engine permite un aprendizaje automático hasta 9 veces superior. La batería es la de mayor duración en un MacBook Air. Y su diseño sin ventilador es supersilencioso. Nunca ha sido tan fácil llevar tanto poder a todos lados. .</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card" data-name="El que se enamora pierde">
+            <h5 class="card-title">Computador Portátil HP 14</h5>
+            <br>
+            <img src="https://www.ktronix.com/medias/198415103550-006-750Wx750H?context=bWFzdGVyfGltYWdlc3wzMDg2MHxpbWFnZS93ZWJwfGFHWTJMMmcxTmk4eE5EVXdPREUxTlRVek5UTTVNQzh4T1RnME1UVXhNRE0xTlRCZk1EQTJYemMxTUZkNE56VXdTQXw0Y2M1M2NhZTNmZWVjYjk4ZDA0MDA3YmFiNGUwY2Q1MTVjYWI0NDk5YjVkMTVkYzRkYjc2NDY5NTZkNDZiYWYy" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Descripción</h5>
+              <p class="card-text">Con el Portátil HP 14-Ep1001la, mantente productivo y entretenido desde cualquier lugar gracias a la batería de larga duración y la pantalla con microbordes. Aprecia más en la pantalla gracias al bisel con microborde de 6,5 mm. Un diseño fino y ligero te permite llevar este portátil a cualquier lugar con facilidad. Supera los días de mayor actividad gracias al desempeño de su procesador eficiente y gran capacidad de almacenamiento. Completa tus tareas con rapidez gracias al alto desempeño, la capacidad de respuesta y la conectividad que te ofrece su excelente configuración.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card" data-name="Son como niños 2">
+            <h5 class="card-title">Computador Portátil ASUS Vivobook Go 15.6</h5>
+            <br>
+            <img src="https://www.ktronix.com/medias/4711387559819-002-750Wx750H?context=bWFzdGVyfGltYWdlc3wyNDM2OHxpbWFnZS93ZWJwfGFEWXpMMmczT1M4eE5EUXhNRFUyTkRFME1UQTROaTgwTnpFeE16ZzNOVFU1T0RFNVh6QXdNbDgzTlRCWGVEYzFNRWd8YTA0MzU5NzU5OGE0ZDFlMTM4NjE4NmJjNDY3ZGIwNzQzMzgyOTAxMmM2NWNiNjEzYWEyMWEwMGQ0ZGYyYTE1Yg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Descripción</h5>
+              <p class="card-text">El ASUS Vivobook Go 15 es liviano, compacto diseñado para que seas productivo y te mantengas entretenido donde quiera que vayas. Incluye una hermosa pantalla con bordes ultradelgados para una experiencia verdaderamente atractiva. Te sentirás seguro gracias al protector físico de la cámara web cuando termines tus reuniones o videollamadas solo tienes que cerrarlo..</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+    </div>
+
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"></script>
+
+</body>
+
+</html>
